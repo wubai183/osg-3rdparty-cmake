@@ -10,17 +10,23 @@ The source code for respective library has to be downloaded separately, see down
 By building the INSTALL target for both debug and release these scripts will create a folder named `3rdParty`.
 Inside this folder there will folders created to represent each platform toolset.
 
-So far these scripts has been tested with successfully with the following toolsets:
 
-* Visual Studio 2010 - 32 bit build
-* Visual Studio 2010 - 64 bit build
+### Status: [![Build status](https://ci.appveyor.com/api/projects/status/xtrxxowo68nyrj9m?svg=true)](https://ci.appveyor.com/project/bjornblissing/osg-3rdparty-cmake)
 
-* Visual Studio 2013 - 32 bit build
 
-* Visual Studio 2015 - 32 bit build
-* Visual Studio 2015 - 64 bit build
+Prebuilt versions
+----------------
 
-* MinGW + GCC 4.8.2
+Toolset | Prebuilt archive
+------------ | -------------
+Visual Studio 2015 32-bit | [v140-x86.zip](https://ci.appveyor.com/api/projects/bjornblissing/osg-3rdparty-cmake/artifacts/v140-x86.zip?job=Environment%3A+Name%3Dv140-x86%2C+APPVEYOR_BUILD_WORKER_IMAGE%3DVisual+Studio+2015%2C+Generator%3DVisual+Studio+14+2015)
+Visual Studio 2015 64-bit | [v140-x64.zip](https://ci.appveyor.com/api/projects/bjornblissing/osg-3rdparty-cmake/artifacts/v140-x64.zip?job=Environment%3A+Name%3Dv140-x64%2C+APPVEYOR_BUILD_WORKER_IMAGE%3DVisual+Studio+2015%2C+Generator%3DVisual+Studio+14+2015+Win64)
+Visual Studio 2017 32-bit | [v141-x86.zip](https://ci.appveyor.com/api/projects/bjornblissing/osg-3rdparty-cmake/artifacts/v141-x86.zip?job=Environment%3A+Name%3Dv141-x86%2C+APPVEYOR_BUILD_WORKER_IMAGE%3DVisual+Studio+2017%2C+Generator%3DVisual+Studio+15+2017)
+Visual Studio 2017 64-bit | [v141-x64.zip](https://ci.appveyor.com/api/projects/bjornblissing/osg-3rdparty-cmake/artifacts/v141-x64.zip?job=Environment%3A+Name%3Dv141-x64%2C+APPVEYOR_BUILD_WORKER_IMAGE%3DVisual+Studio+2017%2C+Generator%3DVisual+Studio+15+2017+Win64)
+
+
+_Prebuilt versions courtesy of [AppVeyor](https://www.appveyor.com)_
+
 
 License
 -------
@@ -50,7 +56,7 @@ In your binary directory there will now be a folder named `3rdParty` with a sub-
 
 zlib
 ----
-Latest version tested: 1.2.8
+Latest version tested: 1.2.11
 
 Sources for zlib can be downloaded from:
 
@@ -59,7 +65,7 @@ http://www.zlib.net/
 
 libpng
 ------
-Latest version tested: 1.6.21
+Latest version tested: 1.6.30
 
 Sources for libpng can be downloaded from:
 
@@ -77,7 +83,7 @@ http://www.ijg.org/
 
 libtiff
 -------
-Latest version tested: 4.0.6
+Latest version tested: 4.0.8
 
 Sources for libtiff can be downloaded from:
 
@@ -88,7 +94,7 @@ http://www.libtiff.org
 
 FreeType
 --------
-Latest version tested: 2.6.3
+Latest version tested: 2.8.0
 
 Sources for FreeType can be downloaded from:
 
@@ -97,7 +103,7 @@ http://www.freetype.org/
 
 GLUT
 ----
-Latest version tested: 3.7
+Latest version tested: markkilgard/glut@8cd96cb440f1f2fac3a154227937be39d06efa53
 
 Sources for GLUT can be downloaded from:
 
@@ -106,7 +112,7 @@ https://github.com/markkilgard/glut
 
 GIFLIB
 ------
-Latest version tested: 5.1.2
+Latest version tested: 5.1.4
 
 Sources for GIFLIB can be downloaded from:
 
@@ -116,7 +122,7 @@ http://sourceforge.net/projects/giflib/
 MINIZIP
 -------
 
-Latest version tested: nmoinvaz/minizip@16455205a717532e416d92c40df44f3b1797d7d8
+Latest version tested: nmoinvaz/minizip@70e3fdad6021c38b5ecacda531df0802cd547bbf
 
 Sources for MINIZIP can be downloaded from:
 
@@ -126,7 +132,7 @@ http://github.com/nmoinvaz/minizip
 cURL
 ----
 
-Latest version tested: 7.49.1
+Latest version tested: 7.54.1
 
 Sources for cURL can be downloaded from:
 
